@@ -53,8 +53,7 @@ def select_word():
 
 # Игровые переменные
 hangman_pic_count = 0
-'''word = select_word().upper()'''
-word = 'ABOBA'
+word = select_word().upper()
 guessed = []
 
 # Переменные кнопок
