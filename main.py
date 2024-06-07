@@ -44,6 +44,8 @@ hangman_pic = [
     pygame.image.load('images/hangman/hangman_logo6.png')
 ]
 
+class Pass():
+    pass
 
 def select_word():
     with open('texts/words.txt') as wordd:
